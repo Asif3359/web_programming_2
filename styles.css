@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: whitesmoke;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+    
+}
+div{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.froms form {
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    padding: 20px;
+    background-color: blue;
+    color: wheat;
+}
+
+.levels{
+    font-size: large;
+    font: 700;
+    margin-bottom: 4px;
+}
+.inputs {
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.buttons{
+    background: green;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 300px;
+    margin: auto;
+}
